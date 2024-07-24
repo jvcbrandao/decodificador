@@ -28,7 +28,6 @@ Este projeto é um **Decodificador de Mensagens** que permite criptografar e des
 
 O projeto utiliza HTML semântico para garantir uma estrutura lógica e acessível. Os principais elementos semânticos utilizados são:
 
-- **`<header>`**: Contém elementos de navegação e logo.
 - **`<main>`**: Abriga as seções principais da página.
 - **`<section>`**: Divide o conteúdo em partes distintas, como entrada e saída de dados.
 - **`<aside>`**: Utilizado para exibir informações secundárias ou complementares.
