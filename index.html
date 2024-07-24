@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Decodificador de mensagens. Criptografe e descriptografe textos facilmente.">    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/images/icone.ico" type="image/x-icon">
+
+</head>
+<body>
+    <main id="partesPrincipais">
+           <section id='conteudoPrimeiraParte'>
+                <figure id="logo">
+                    <img src="./assets/images/logo.svg" alt="Logotipo Alura" ><!-- usar srcset-->
+                </figure>
+                <input type="text" id="mensagem" placeholder="Digite seu texto">
+                <section id="botoes">
+                    <div id="avisoMensagem">
+                        <p id="aviso">
+                            <figure>
+                                <img src="./assets/images/aviso.svg" alt="Exclamação para avisar sobre limitação">
+                            </figure>
+                                Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    
+                    <button id="criptografar">Criptografar</button>
+                    <button id="descriptografar">Descriptografar</button>
+                </section>
+
+            </section>
+            
+        <section id='conteudoSegundaParte'>
+            <aside id="campoExibir">
+                    <figure id="imagemDescriptografar"> 
+                        <img src="./assets/images/descriptogradarDesenho.svg" alt="Desenho de uma pessoa pesquisando">
+                    </figure>
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+
+            </aside>
+        </section>
+
+    </main>
+
+<script src="criptografar.js"></script>
+<script src="descriptografar.js"></script>
+</body>
+</html>
